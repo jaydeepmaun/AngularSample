@@ -1,0 +1,578 @@
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+
+<!-- Main Details -->
+
+<mat-accordion>
+  <!-- #docregion basic-panel -->
+  <!-- #docregion hide-toggle -->
+    <mat-expansion-panel hideToggle>
+  <!-- #enddocregion hide-toggle -->
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            Main Details
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+    </mat-expansion-panel>
+  <!-- #enddocregion basic-panel -->
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <!-- <mat-panel-title>
+          Self aware panel
+        </mat-panel-title>
+        <mat-panel-description>
+          Currently I am {{panelOpenState ? 'open' : 'closed'}}
+        </mat-panel-description> -->
+      </mat-expansion-panel-header>
+      <form>
+        <div class="row">
+          <div class="col">
+            <label for="inputPassword5">Transmit To</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col">
+            <label for="inputPassword5">Billing Company</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col">
+            <label for="inputPassword5">Handling Office</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col">
+            <label for="inputPassword5">Status</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col">
+            <label for="inputPassword5">Created By</label>
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <label for="inputPassword5">Created On</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col">
+            <label for="inputPassword5">Updated By</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col">
+            <label for="inputPassword5">Updated On</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col">
+            <label for="inputPassword5">Recieved From</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col">
+            <label for="inputPassword5"></label>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col">
+            <label for="inputPassword5">Carrier Status</label>
+            <input type="text" class="form-control" >
+          </div>
+          <div class="col">
+            <label for="inputPassword5">Responible Person</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col">
+            <label for="inputPassword5"></label>
+          </div>
+          <div class="col">
+            <label for="inputPassword5"></label>
+          </div>
+          <div class="col">
+            <label for="inputPassword5"></label>
+          </div>
+          </div>
+      </form>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+
+
+  <!-- Documents Details -->
+
+  <mat-accordion>
+    <!-- #docregion basic-panel -->
+    <!-- #docregion hide-toggle -->
+      <mat-expansion-panel hideToggle>
+    <!-- #enddocregion hide-toggle -->
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Documents Details
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+      </mat-expansion-panel>
+    <!-- #enddocregion basic-panel -->
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+          <!-- <mat-panel-title>
+            Self aware panel
+          </mat-panel-title>
+          <mat-panel-description>
+            Currently I am {{panelOpenState ? 'open' : 'closed'}}
+          </mat-panel-description> -->
+        </mat-expansion-panel-header>
+
+        <form>
+          <div class="row">
+            <div class="col">
+              <label for="inputPassword5">Transmit To</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="col">
+              <label for="inputPassword5">Billing Company</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="col">
+              <label for="inputPassword5">Handling Office</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="col">
+              <label for="inputPassword5">Status</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="col">
+              <label for="inputPassword5">Created By</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label for="inputPassword5">Created On</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="col">
+              <label for="inputPassword5">Updated By</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="col">
+              <label for="inputPassword5">Updated On</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="col">
+              <label for="inputPassword5">Recieved From</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="col">
+              <label for="inputPassword5"></label>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col">
+              <label for="inputPassword5">Carrier Status</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="col">
+              <label for="inputPassword5">Responible Person</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="col">
+              <label for="inputPassword5"></label>
+            </div>
+            <div class="col">
+              <label for="inputPassword5"></label>
+            </div>
+            <div class="col">
+              <label for="inputPassword5"></label>
+            </div>
+            </div>
+        </form>
+      </mat-expansion-panel>
+    </mat-accordion>
+
+
+
+    <!-- Documents Details -->
+
+    <mat-accordion>
+      <!-- #docregion basic-panel -->
+      <!-- #docregion hide-toggle -->
+        <mat-expansion-panel hideToggle>
+      <!-- #enddocregion hide-toggle -->
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Documents Details
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+        </mat-expansion-panel>
+      <!-- #enddocregion basic-panel -->
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <!-- <mat-panel-title>
+              Self aware panel
+            </mat-panel-title>
+            <mat-panel-description>
+              Currently I am {{panelOpenState ? 'open' : 'closed'}}
+            </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <form>
+            <div class="row">
+              <div class="col">
+                <label for="inputPassword5">Transmit To</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <label for="inputPassword5">Billing Company</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <label for="inputPassword5">Handling Office</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <label for="inputPassword5">Status</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <label for="inputPassword5">Created By</label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <label for="inputPassword5">Created On</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <label for="inputPassword5">Updated By</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="col">
+                <label for="inputPassword5">Updated On</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <label for="inputPassword5">Recieved From</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <label for="inputPassword5"></label>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col">
+                <label for="inputPassword5">Carrier Status</label>
+                <input type="text" class="form-control" >
+              </div>
+              <div class="col">
+                <label for="inputPassword5">Responible Person</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="col">
+                <label for="inputPassword5"></label>
+              </div>
+              <div class="col">
+                <label for="inputPassword5"></label>
+              </div>
+              <div class="col">
+                <label for="inputPassword5"></label>
+              </div>
+              </div>
+          </form>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
+
+ <!-- Routing Details -->
+
+      <mat-accordion>
+        <!-- #docregion basic-panel -->
+        <!-- #docregion hide-toggle -->
+          <mat-expansion-panel hideToggle>
+        <!-- #enddocregion hide-toggle -->
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Routing Details
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+          </mat-expansion-panel>
+        <!-- #enddocregion basic-panel -->
+          <mat-expansion-panel (opened)="panelOpenState = true"
+                               (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+              <!-- <mat-panel-title>
+                Self aware panel
+              </mat-panel-title>
+              <mat-panel-description>
+                Currently I am {{panelOpenState ? 'open' : 'closed'}}
+              </mat-panel-description> -->
+            </mat-expansion-panel-header>
+            <form>
+              <div class="row">
+                <div class="col">
+                  <label for="inputPassword5">Transmit To</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputPassword5">Billing Company</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputPassword5">Handling Office</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputPassword5">Status</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputPassword5">Created By</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <label for="inputPassword5">Created On</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputPassword5">Updated By</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                  <label for="inputPassword5">Updated On</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputPassword5">Recieved From</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputPassword5"></label>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col">
+                  <label for="inputPassword5">Carrier Status</label>
+                  <input type="text" class="form-control" >
+                </div>
+                <div class="col">
+                  <label for="inputPassword5">Responible Person</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col">
+                  <label for="inputPassword5"></label>
+                </div>
+                <div class="col">
+                  <label for="inputPassword5"></label>
+                </div>
+                <div class="col">
+                  <label for="inputPassword5"></label>
+                </div>
+                </div>
+            </form>
+          </mat-expansion-panel>
+        </mat-accordion>
+
+
+
+<!-- Cargo Details -->
+
+        <mat-accordion>
+          <!-- #docregion basic-panel -->
+          <!-- #docregion hide-toggle -->
+            <mat-expansion-panel hideToggle>
+          <!-- #enddocregion hide-toggle -->
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Cargo Details
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+            </mat-expansion-panel>
+          <!-- #enddocregion basic-panel -->
+            <mat-expansion-panel (opened)="panelOpenState = true"
+                                 (closed)="panelOpenState = false">
+              <mat-expansion-panel-header>
+                <!-- <mat-panel-title>
+                  Self aware panel
+                </mat-panel-title>
+                <mat-panel-description>
+                  Currently I am {{panelOpenState ? 'open' : 'closed'}}
+                </mat-panel-description> -->
+              </mat-expansion-panel-header>
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <label for="inputPassword5">Transmit To</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5">Billing Company</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5">Handling Office</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5">Status</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5">Created By</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <label for="inputPassword5">Created On</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5">Updated By</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5">Updated On</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5">Recieved From</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5"></label>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col">
+                    <label for="inputPassword5">Carrier Status</label>
+                    <input type="text" class="form-control" >
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5">Responible Person</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5"></label>
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5"></label>
+                  </div>
+                  <div class="col">
+                    <label for="inputPassword5"></label>
+                  </div>
+                  </div>
+              </form>
+            </mat-expansion-panel>
+          </mat-accordion>
+
+
+<!-- Rate Details -->
+
+          <mat-accordion>
+            <!-- #docregion basic-panel -->
+            <!-- #docregion hide-toggle -->
+              <mat-expansion-panel hideToggle>
+            <!-- #enddocregion hide-toggle -->
+                <mat-expansion-panel-header>
+                  <mat-panel-title>
+                    Rate Details
+                  </mat-panel-title>
+                </mat-expansion-panel-header>
+              </mat-expansion-panel>
+            <!-- #enddocregion basic-panel -->
+              <mat-expansion-panel (opened)="panelOpenState = true"
+                                   (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                  <!-- <mat-panel-title>
+                    Self aware panel
+                  </mat-panel-title>
+                  <mat-panel-description>
+                    Currently I am {{panelOpenState ? 'open' : 'closed'}}
+                  </mat-panel-description> -->
+                </mat-expansion-panel-header>
+                <form>
+                  <div class="row">
+                    <div class="col">
+                      <label for="inputPassword5">Transmit To</label>
+                      <input type="text" class="form-control" >
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5">Billing Company</label>
+                      <input type="text" class="form-control" >
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5">Handling Office</label>
+                      <input type="text" class="form-control" >
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5">Status</label>
+                      <input type="text" class="form-control" >
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5">Created By</label>
+                      <input type="text" class="form-control">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <label for="inputPassword5">Created On</label>
+                      <input type="text" class="form-control" >
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5">Updated By</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5">Updated On</label>
+                      <input type="text" class="form-control" >
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5">Recieved From</label>
+                      <input type="text" class="form-control" >
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5"></label>
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+                    <div class="col">
+                      <label for="inputPassword5">Carrier Status</label>
+                      <input type="text" class="form-control" >
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5">Responible Person</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5"></label>
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5"></label>
+                    </div>
+                    <div class="col">
+                      <label for="inputPassword5"></label>
+                    </div>
+                    </div>
+                </form>
+              </mat-expansion-panel>
+            </mat-accordion>
